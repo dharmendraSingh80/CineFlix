@@ -1,9 +1,9 @@
 import React from "react";
+import { connect } from "react-redux";
 import { data as movieList } from "../data";
 import Navbar from "./Navbar";
 import MovieCard from "./MovieCard";
 import { addMovies, setShowFavourites } from "../actions";
-import { connect } from "..";
 
 class App extends React.Component {
   componentDidMount() {
@@ -26,13 +26,13 @@ class App extends React.Component {
   };
 
   render() {
-    const { movies, search } = this.props; //{movies:{}, search:{}}
+    const { movies } = this.props; //{movies:{}, search:{}}
     const { list, favourites, showFavourites } = movies;
     const displayMovies = showFavourites ? favourites : list;
 
     return (
       <div className="App">
-        <Navbar search={search} />
+        <Navbar />
         <div className="main">
           <div className="tabs">
             <div
