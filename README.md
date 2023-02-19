@@ -1,3 +1,20 @@
+# Movies-App
+This is a Movies app built using React.js with Redux store and API
+
+## Features
+- Users can See the list of Movies card
+- Users can add and remove to its Favourite list
+- Users can search new movies
+- Users can see their Favourites list
+
+## Screenshots
+### Movies List
+![Screenshot (32)](https://user-images.githubusercontent.com/114590452/219938021-fa3e36c6-f0df-484c-87b8-238663c78364.png)
+
+### Favourites List
+![Screenshot (33)](https://user-images.githubusercontent.com/114590452/219938049-f1575094-adab-4c46-83f5-72d4abbb996e.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
