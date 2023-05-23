@@ -1,4 +1,4 @@
-# Movies-App
+# CineFlix
 This is a Movies app built using React.js with Redux store and API
 
 ## Features
